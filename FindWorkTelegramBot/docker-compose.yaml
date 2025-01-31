@@ -1,0 +1,6 @@
+﻿services:
+  findworktelegrambot:
+    image: findworktelegrambot
+    build:
+      context: .
+      dockerfile: FindWorkTelegramBot/Dockerfile
