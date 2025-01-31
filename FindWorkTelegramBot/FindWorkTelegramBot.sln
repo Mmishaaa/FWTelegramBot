@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWorkTelegramBot", "FindWorkTelegramBot\FindWorkTelegramBot.csproj", "{4D66C622-E841-492C-A807-D00DBD682EC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWorkTelegramBot.API", "FindWorkTelegramBot.API\FindWorkTelegramBot.API.csproj", "{4D66C622-E841-492C-A807-D00DBD682EC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{42AFAACA-CF69-40F3-994C-38C8B6AC6CFC}"
 	ProjectSection(SolutionItems) = preProject
 		compose.yaml = compose.yaml
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWorkTelegramBot.DAL", "FindWorkTelegramBot.DAL\FindWorkTelegramBot.DAL.csproj", "{3ADDE9CB-9444-416A-BFBB-378B45C94F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindWorkTelegramBot.BLL", "FindWorkTelegramBot.BLL\FindWorkTelegramBot.BLL.csproj", "{3EBF5809-BDE6-4058-9329-F14FEAA4EEF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,5 +21,13 @@ Global
 		{4D66C622-E841-492C-A807-D00DBD682EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D66C622-E841-492C-A807-D00DBD682EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D66C622-E841-492C-A807-D00DBD682EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADDE9CB-9444-416A-BFBB-378B45C94F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADDE9CB-9444-416A-BFBB-378B45C94F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADDE9CB-9444-416A-BFBB-378B45C94F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADDE9CB-9444-416A-BFBB-378B45C94F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EBF5809-BDE6-4058-9329-F14FEAA4EEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EBF5809-BDE6-4058-9329-F14FEAA4EEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EBF5809-BDE6-4058-9329-F14FEAA4EEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EBF5809-BDE6-4058-9329-F14FEAA4EEF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

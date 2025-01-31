@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>FindWorkTelegramBot</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,6 +16,10 @@
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FindWorkTelegramBot.BLL\FindWorkTelegramBot.BLL.csproj" />
     </ItemGroup>
 
 </Project>
